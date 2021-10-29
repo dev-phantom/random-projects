@@ -1,0 +1,143 @@
+ *{
+  margin: 0;
+  padding: 0;
+}
+body{
+  background: #DED9DD;
+}
+@font-face{
+  font-family: amaranth;
+  src: url("/fonts/Amaranth-Bold.otf")
+}
+  header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid gray;
+    height: 3rem;
+    font-size: 1.5rem;
+  }
+  a{
+    color: #F57F17;
+    text-decoration: none;
+    outline: none;
+  }
+  a>i{
+    margin-left: .5rem;
+    font-size: 1.5rem;
+  }
+  main{
+    display: block;
+  }
+.shopping > i{
+  margin-right: .5rem;
+}
+.product-name{
+  font-family: amaranth;
+  text-align: center;
+  color: #F57F17;
+  font-size: 3rem;
+  margin: .5rem;
+}
+.product-image{
+  width: 90%;
+  border-radius:8px;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+.description{
+  padding: .5rem;
+  text-align: center;
+  font-weight: bold;
+  color: #222;
+  font-size: 20px;
+}
+.items-info {
+ background: white;
+ border-radius: .5rem;
+}
+.price{
+    padding: .5rem;
+  font-weight: bolder;
+  color: green;
+  font-size: 20px;
+}
+label {
+  color: #F57F17;
+  padding-left:.5rem;
+  font-size: 20px;
+}
+select {
+  width: 60%;
+  height: 2rem;
+  background: unset;
+  border:1px solid orange;
+  border-radius: 5px;
+  outline: none;
+  color: #222;
+}
+.button-flex{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.button-flex > button {
+  width: 2.5rem;
+  border-radius: 1rem;
+  height: 2.5rem;
+  background: #F57F17;
+  border: 2px solid #222;
+  outline: none;
+  margin: .5rem;
+  color: #222;
+}
+.button-am{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ margin-bottom: 3rem;
+}
+.button-am > button{
+    margin-top: .5rem;
+ margin-bottom: .5rem;
+  width: 80%;
+  height: 3rem;
+  background: #F57F17;
+  outline: none;
+  border: 2px solid #000;
+  color: white;
+  font-weight: bold;
+  border-radius: 2rem;
+}
+.foot-flex{
+  display: block;
+}
+.foot-flex > a{
+  color: #fff;
+  font-size: 17px;
+  padding-left: .5rem;
+  font-weight: bold;
+}
+.social-icons{
+  color: white;
+  outline: none;
+  padding: 1rem;
+}
+.social-icons>a>i{
+  margin-left: 1rem;
+  padding: .5rem;
+  
+  color: white;
+}
+.social-icons>a>i:hover{
+  margin-left: 1rem;
+  padding: .5rem;
+  color: crimson;
+}
+.footer{
+  margin-top: 1rem;
+  padding-top: .5rem;
+  background: #222;
+  color: #fff;
+  text-align: center;
+}

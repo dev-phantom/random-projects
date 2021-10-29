@@ -1,0 +1,109 @@
+   @keyframes myAnimation {
+         0% {
+            background:url("/img/img2.png");
+           animation-delay: 3s;
+         }
+         25% {
+           background:url("/img/img3.png");
+          animation-delay: 3s;
+          animation-duration: 3s;
+         }
+         50% {
+             background:url("/img/img4.png");
+             animation-delay: 3s;
+         }
+         75% {
+             background:url("/img/img1.png");
+           animation-duration: 3s;
+         }
+         100% {
+             background:url("/img/img2.png");
+            animation-duration: 3s;
+         }
+      }
+      body{
+         animation-name: myAnimation;
+         animation-duration: 15s;
+         /* try to change the value below with a number */
+         animation-iteration-count: infinite;
+         animation-timing-function: ease-in-out;
+         position: fixed;
+         width: 100%;
+         height: 100%;
+          background:url("/img/img5.png");
+      }
+      .Phantom{
+        font-size: 3rem;
+        text-align: center;
+        font-weight: 900;
+        color: #FF6D00;
+       
+       
+      }
+   .title{
+     text-align: center;
+     margin-top: 10%;
+   }
+   .title > h2{
+     color: #fff;
+     font-size: 3rem;
+   }
+   .line{
+     border: 2px solid #FF6D00;
+   }
+   footer{
+     position: fixed;
+     text-align: center;
+     bottom: 1rem;
+   }
+   .button-flex{
+     display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+   }
+   .signup{
+     width: 20rem;
+     height: 3.5rem;
+     border: 2px solid #000;
+     background-color: #FF6D00;
+     border-radius: 3rem;
+     text-transform: uppercase;
+     font-weight: bold;
+     outline: none;
+     outline-color: none;
+     cursor: pointer;
+   }
+   .signup> a{
+     text-decoration: none;
+   }
+   .getstart{
+     text-align: center;
+     font-size: 1rem;
+     color: white;
+   }
+   .foot{
+     margin-top: 15rem;
+   }
+   .have-account{
+     text-align: center;
+     color: white;
+     padding-top: .5rem;
+   }
+   .have-account > a {
+     font-weight: bolder;
+   }
+   @media only screen and (max-width:768px){
+    .title{
+      text-align: center;
+      margin-top: 50%;
+    } 
+   }
+   @media only screen and (max-width:1024px){
+    .title{
+      text-align: center;
+      margin-top: 50%;
+    } 
+   }

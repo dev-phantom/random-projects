@@ -1,0 +1,92 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+background: url(/img/img3.png) center;
+  background-repeat: no-repeat;
+  background-size: 200%;
+}
+.head{
+  text-align: center;
+  font-size: 2rem;
+  color: #FF6D00;
+  font-weight: 900;
+  margin-top: 1rem;
+}
+.sign-head{
+  text-align: center;
+  color: #FF6D00;
+  font-family: Cursive;
+  font-size: 2.5rem;
+  font-weight: bolder;
+}
+fieldset{
+  width: 90%;
+  margin-left: 1rem;
+ margin-right: 1rem;
+ margin-top: 1rem;
+ border: 2px solid orange;
+ border-radius: .5rem;
+  background: url(/img/img3.png) center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+label{
+  margin-left: 1rem;
+  margin-top: 5rem;
+  font-size: 20px;
+  color: #FFCA28;
+}
+input {
+  padding: 1rem;
+  margin-left: 1rem;
+  margin-top: .1rem;
+  border-bottom: 2px solid #FF6D00;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  width: 80%;
+  color: #fff;
+  background: unset;
+  outline: none;
+}
+input::placeholder {
+  color: orange;
+  font-weight: bolder;
+}
+input:hover{
+  border-bottom: 2px solid orange;
+}
+.button-flex{
+  display: flex;
+  justify-content: center;
+  align-items: center ;
+  text-align: center;
+  margin: 1rem;
+}
+.button-flex > a{
+  text-decoration: none;
+  color: black;
+  font-size: 2rem;
+}
+.button-flex > a > button{
+  width: 7rem;
+  height: 3rem;
+  background: #FF6D00;
+  outline: none;
+  border: 2px solid #000;
+  border-radius: 2rem;
+}
+   .have-account{
+     text-align: center;
+     color: white;
+     padding: 1rem;
+   }
+   .have-account > a {
+     font-weight: bolder;
+     color: white;
+   }
+   marquee{
+     color: white;
+   }
